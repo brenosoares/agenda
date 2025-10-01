@@ -1,8 +1,3 @@
-# Mini-projeto JS – Dashboard Estatístico
+# Dashboard Estatístico (Resumo)
 
-Ler JSON, gerar métricas e exibir em HTML.
-
-Critérios:
-- Modularização
-- Código claro
-- Sem mutação do dataset bruto
+Conteúdo detalhado descrito na especificação.

@@ -1,0 +1,8 @@
+@import "../tokens.css";
+.navbar { display: flex; background: var(--color-bg-alt); border-bottom: 1px solid var(--color-border); padding: 0 var(--space-4); align-items: center; min-height: 56px; gap: var(--space-4); }
+.navbar__brand { font-weight: 700; font-size: 1rem; letter-spacing: .5px; color: var(--color-primary); text-decoration: none; }
+.navbar__menu { display: flex; gap: var(--space-2); margin-left: auto; }
+.navbar__link { position: relative; display: inline-flex; align-items: center; padding: var(--space-2) var(--space-3); font-size: 0.85rem; text-decoration: none; font-weight: 500; letter-spacing: .3px; color: var(--color-text-muted); transition: color var(--transition-base); }
+.navbar__link:hover, .navbar__link:focus-visible { color: var(--color-text); }
+.navbar__link--active { color: var(--color-primary); }
+.navbar__link--active::after { content: ""; position: absolute; left: var(--space-3); right: var(--space-3); bottom: 4px; height: 2px; background: var(--color-primary); border-radius: 2px; }
