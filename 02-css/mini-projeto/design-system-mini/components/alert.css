@@ -1,0 +1,8 @@
+@import "../tokens.css";
+.alert { --alert-bg: var(--color-bg-alt); --alert-border: var(--color-border); --alert-color: var(--color-text); display: flex; gap: var(--space-3); align-items: flex-start; padding: var(--space-3) var(--space-4); border: 1px solid var(--alert-border); border-radius: var(--radius-sm); background: var(--alert-bg); position: relative; font-size: 0.9rem; }
+.alert--info { --alert-bg: rgba(10,108,255,.08); --alert-border: rgba(10,108,255,.3); --alert-color: var(--color-primary); }
+.alert--success { --alert-bg: rgba(3,152,85,.08); --alert-border: rgba(3,152,85,.3); --alert-color: var(--color-success); }
+.alert--danger { --alert-bg: rgba(217,45,32,.08); --alert-border: rgba(217,45,32,.35); --alert-color: var(--color-danger); }
+.alert__title { font-weight: 600; margin: 0 0 var(--space-1); font-size: 0.95rem; }
+.alert__close { position: absolute; right: .5rem; top: .5rem; background: none; border: none; font: inherit; cursor: pointer; color: var(--alert-color); line-height: 1; padding: var(--space-1); border-radius: var(--radius-xs); }
+.alert__close:focus-visible { box-shadow: var(--focus-ring); outline: none; }

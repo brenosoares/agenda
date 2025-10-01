@@ -1,8 +1,3 @@
-# Mini-projeto – Catálogo de Filmes
+# Mini Catálogo de Filmes (Resumo)
 
-Busca + detalhe (modal) + favoritos persistidos.
-
-Critérios:
-- Modal acessível
-- Debounce em busca
-- Persistência no localStorage
+Detalhes completos no planejamento aprovado.
